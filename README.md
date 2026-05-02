@@ -67,3 +67,16 @@ Open [http://localhost:3000](http://localhost:3000)
 - Prisma with SQLite
 - Anthropic Claude AI
 - Vercel AI SDK
+
+## Automatic Deployment with GitHub Actions
+
+This repository includes a deployment workflow to Vercel.
+
+1. Go to repository settings in GitHub and open Secrets and variables > Actions.
+2. Create these repository secrets:
+	- `VERCEL_TOKEN`
+	- `VERCEL_ORG_ID`
+	- `VERCEL_PROJECT_ID`
+3. Push to `main`.
+
+The deployment workflow is triggered after CI completes successfully on `main`, and it can also be run manually from the Actions tab.
