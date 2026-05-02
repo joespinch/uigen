@@ -1,0 +1,9 @@
+Debes definir la variable de entorno GITHUB_TOKEN con un token de acceso personal de GitHub con permisos de repo.
+
+Cambia usuario/repositorio por el nombre real de tu repo.
+
+Estos scripts pueden ejecutarse en un workflow de GitHub Actions, en un servidor, o como parte de un bot.
+
+Puedes mejorar la lógica de run_task y review_pr para que llamen a un modelo IA, scripts de análisis, etc.
+
+¿Quieres que te ayude a integrarlo con GitHub Actions o a personalizar la lógica de revisión/respuesta?
